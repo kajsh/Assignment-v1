@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Antic');
+
+
+
+body {
+    background-color:whitesmoke;
+    height:100%;
+	font-family:Antic;
+    color:darkblue;
+
+}
+
+.back {  
+    background-color:#46a4d4;
+    width:850px;
+    height:550px;
+    margin:50px 50px 50px 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.back-img { 
+	position: absolute;
+    top: 100px;
+    left: 400px;
+    box-shadow:2px 2px 2px gray; 
+}
+
+h1 {
+	top:10px;
+	font-size:35px;
+    position:absolute;
+	margin: 20px 60px 60px 60px;
+    font-weight: bolder;
+}
+
+h5 {
+    position:absolute;
+	top:18px;
+	margin:60px;
+	font-size:20px;
+}
+
+.form {
+	position:absolute;
+	top:50px;
+	margin:60px;
+}
+
+.form input[type=email],.form input[type=password] {
+	border:none;
+	border-bottom:1px solid darkblue;
+	background:transparent;
+	outline:none;
+	height:10px;
+    width:250px;
+	margin-bottom:35px;
+	font-size:15px;
+}
+
+.form .btn {
+	height:30px;
+    width:100%;
+	color:white;
+    border-radius:5px;
+    background-color:darkblue;
+    border:none;
+	margin-top:20px;
+    margin-top: 20px;
+	outline:none;
+    margin-bottom:20px;
+}
+
+p {
+	margin:0px;
+	padding:0px;
+    font-weight: bold;
+}
+
+.check-box {
+	position:absolute;
+	top:120px;
+	width:100%;
+}
+
+label {
+	position:relative;
+	right:-30px;
+	top:-20px;
+	color:darkblue;
+    font-size:12px;
+	font-family:Antic;	
+}
+
+.forgot {
+	position:absolute;
+	top:120px;
+	right:-5px;
+	font-size:12px;
+}
+
+.fa {
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 5px 15px 20px;
+  
+}
+
+.fa-facebook {
+    font-size: 15px;
+    border-radius:50%;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    font-size: 25px;
+    color: deepskyblue;
+}
+
+.fa-google {
+    font-size: 25px;
+    color: red;
+}
+	
